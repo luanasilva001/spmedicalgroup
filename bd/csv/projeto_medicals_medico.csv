@@ -1,0 +1,6 @@
+idMedico;idUsuario;idEspecialidade;idClinica;nomeMedico;CRM
+1;1;2;1;Ricardo Lemos;54356-SP
+2;2;17;1;Roberto Possarle;53852-SP
+3;3;16;1;Helena Strada;65463-SP
+4;6;16;1;Luana;73948-SP
+5;7;16;1;Luiza;54856-SP

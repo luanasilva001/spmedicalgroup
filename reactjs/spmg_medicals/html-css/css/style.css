@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: #000000;
+  background-color: #f4f4f4;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.consultas {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 582px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* login */
+.login {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login-img {
+  background-color: #abe1d7;
+  max-width: 960px;
+  width: 45%;
+}
+
+@media screen and (max-width: 496px) {
+  .login-img {
+    display: none;
+  }
+}
+
+/* formulario */
+.login-formulario {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  align-items: center;
+  margin: auto;
+}
+
+.login-titulo {
+  font-family: "Rubik Mono One", Arial, Helvetica, Arial, sans-serif;
+  color: #047d69;
+  font-size: 3em;
+}
+
+/* inputs */
+::-webkit-input-placeholder {
+  color: #047d69;
+}
+
+.email-input,
+.senha-input {
+  border: 2px solid #87dece;
+  font-size: 1.3125em;
+}
+
+.email-paragrafo,
+.senha-paragrafo {
+  font-size: 1.625em;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.email,
+.senha {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+}
+
+/* botao lembrar de mim */
+.lembrar-de-mim-checkbox {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.lembrar-paragrafo {
+  font-family: "Nunito Sans", sans-serif;
+  color: #047d69;
+}
+
+/* botao logar */
+.btn {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  margin-bottom: 30px;
+}
+
+.btn-logar {
+  background-color: #87dece;
+  width: 150px;
+  height: 27px;
+  border: none;
+  border-radius: 12px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #047d69;
+  font-size: 1.375em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* footer */
+.logo {
+  max-width: 960px;
+  width: 70%;
+  margin: auto;
+}
+/* fim tela de login */
+
+/* consulta de medico */
+.listagem-consultas-medico {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.nav-menu {
+  max-width: 960px;
+  padding: 15px 0;
+  height: 70px;
+  background-color: #1ac7a7;
+}
+
+.menu-nome-usuario {
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #f4f4f4;
+  font-size: 1.625em;
+  width: 250px;
+}
+
+.medicos-img {
+  width: 40%;
+  background-color: #abe1d7;
+}
+
+.cards  {
+  display: flex;
+  border: 3px solid #1ac7a7;
+  margin-top: 15px;
+  justify-content: space-around;
+}
+
+.cards label, .data-consulta{
+  font-weight:bold;
+  font-family: "Arial", sans-serif;
+  margin: auto;
+}
+
+.cards img{
+  width: 70px;
+  height: 70px;
+  margin-bottom: 8px;
+  margin: auto;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+}
+
+.esquerda {
+  display: flex;
+  flex-direction: column;
+}
+
+.descricao{
+  display: inline;
+  margin-top: 16px;
+  border:2px solid #87dece;
+  height: auto;
+  text-align: center;
+  width:150px;
+}
+
+
+
